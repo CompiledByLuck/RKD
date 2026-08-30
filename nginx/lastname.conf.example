@@ -1,0 +1,20 @@
+# Copy this file to /etc/nginx/sites-available/lastname on the VM.
+# For student index 20, API_PORT=5200 and WEB_PORT=8280.
+server {
+    listen 8280;
+    server_name _;
+    server_tokens off;
+
+    location / {
+        proxy_pass http://127.0.0.1:5200;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        add_header X-Content-Type-Options nosniff always;
+        add_header X-Frame-Options SAMEORIGIN always;
+        add_header Referrer-Policy strict-origin-when-cross-origin always;
+        add_header Permissions-Policy "geolocation=(), microphone=(), camera=()" always;
+    }
+}
