@@ -1,4 +1,4 @@
-package com.example.lastname;
+package com.example.savinov;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

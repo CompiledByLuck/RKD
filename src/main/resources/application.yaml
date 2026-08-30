@@ -1,8 +1,8 @@
 spring:
   application:
-    name: lastname-todo
+    name: savinov-todo
   mongodb:
-    uri: ${MONGODB_URI:mongodb://localhost:27017/lastname_todo}
+    uri: ${MONGODB_URI:mongodb://localhost:27017/savinov_todo}
 
 server:
   port: ${SERVER_PORT:5200}

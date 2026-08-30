@@ -1,12 +1,12 @@
-package com.example.lastname;
+package com.example.savinov;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LastnameTodoApplication {
+public class SavinovTodoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LastnameTodoApplication.class, args);
+        SpringApplication.run(SavinovTodoApplication.class, args);
     }
 }

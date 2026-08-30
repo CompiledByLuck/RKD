@@ -1,4 +1,4 @@
-package com.example.lastname;
+package com.example.savinov;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

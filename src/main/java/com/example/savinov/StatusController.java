@@ -1,4 +1,4 @@
-package com.example.lastname;
+package com.example.savinov;
 
 import java.util.Map;
 
@@ -11,7 +11,7 @@ public class StatusController {
     @GetMapping("/")
     public Map<String, Object> status() {
         return Map.of(
-                "app", "lastname-todo",
+                "app", "savinov-todo",
                 "status", "running",
                 "crudEndpoint", "/api/todos");
     }

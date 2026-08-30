@@ -1,10 +1,10 @@
-package com.example.lastname;
+package com.example.savinov;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LastnameTodoApplicationTests {
+class SavinovTodoApplicationTests {
 
     @Test
     void contextLoads() {

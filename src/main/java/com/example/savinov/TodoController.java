@@ -1,4 +1,4 @@
-package com.example.lastname;
+package com.example.savinov;
 
 import java.net.URI;
 import java.util.List;
